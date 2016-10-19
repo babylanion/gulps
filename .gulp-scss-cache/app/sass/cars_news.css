@@ -1,0 +1,97 @@
+.main_content {
+  width: 94%;
+  margin: 0 auto; }
+
+/*new_car*/
+.slBox {
+  border-bottom: 7px solid #eeeeee;
+  padding-bottom: 3px; }
+
+.slBox.slBoxBorNo {
+  border: none; }
+
+.car_news_listTit {
+  font-size: 18px;
+  color: #ff4683;
+  padding: 12px 0 10px;
+  font-weight: bold; }
+
+.car_news_list li {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, transparent), color-stop(0.5, #e5e5e5), to(#e5e5e5)) left top repeat-x;
+  background-size: 100% 1px;
+  padding: 13px 0 7px; }
+
+.car_news_list li img {
+  width: 110px;
+  height: 65px;
+  margin-right: 10px;
+  float: left; }
+
+.car_news_list li > div > p {
+  height: 50px; }
+
+.car_news_list li > div > div {
+  font-size: 12px;
+  color: #9f9f9f; }
+
+.car_news_list li > div > div > span.car_news_listTG {
+  background-position: -400px 0px;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 26px;
+  height: 11px;
+  display: inline-block;
+  margin-top: 2px; }
+
+.car_news_list li > div > div a {
+  font-size: 12px;
+  color: #9f9f9f;
+  margin-top: 2px; }
+
+.car_news_list li > div > div .classify {
+  border-radius: 2px;
+  background: #cccccc;
+  padding: 1px 4px;
+  color: #ffffff; }
+
+.car_news_list li > div > div .comment {
+  float: right; }
+
+.car_news_list li > div > div a span:nth-child(2) {
+  background: url(http://p1.ifengimg.com/auto/image/2016/0907/conment_03.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  width: 14px;
+  height: 11px;
+  display: inline-block;
+  margin-left: 5px; }
+
+.car_news_list li div:last-child p span {
+  border: 1px solid #999;
+  padding: 1px 4px;
+  border-radius: 2px; }
+
+.car_news_list .ad_lst > a > h2 {
+  font-size: 18px;
+  text-align: left; }
+
+.car_news_list .ad_lst > a > div {
+  padding-top: 10px;
+  display: box;
+  box-align: center;
+  box-pack: justify;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify; }
+
+.car_news_list .ad_lst > a > div img {
+  width: 32.17%;
+  max-width: 110px;
+  max-height: 73px;
+  float: none;
+  margin-right: 0; }
+
+.default_loadtext {
+  text-align: center; }
+
+/*# sourceMappingURL=cars_news.css.map */
